@@ -38,7 +38,7 @@ public class Calculator extends Converter {
                 num2 = Integer.parseInt(value2);
                 isArabic = true;
             } else {
-                throw new Exception("Числа должны быть только арабские или только римские");
+                throw new Exception("Числа должны быть только арабские или только римские от 1 до 10");
             }
                 if ((num1 > 0 && num1 <= 10) && (num2 > 0 && num2 <= 10)) {
                     System.out.println("Output:");
